@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Learn\\AngularLearn\\SuperHeroAPI\\SuperHeroAPI.csproj": {}
+    "C:\\Learn\\AngularLearn\\AngularCrud\\SuperHeroAPI\\SuperHeroAPI.csproj": {}
   },
   "projects": {
-    "C:\\Learn\\AngularLearn\\SuperHeroAPI\\SuperHeroAPI.csproj": {
+    "C:\\Learn\\AngularLearn\\AngularCrud\\SuperHeroAPI\\SuperHeroAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Learn\\AngularLearn\\SuperHeroAPI\\SuperHeroAPI.csproj",
+        "projectUniqueName": "C:\\Learn\\AngularLearn\\AngularCrud\\SuperHeroAPI\\SuperHeroAPI.csproj",
         "projectName": "SuperHeroAPI",
-        "projectPath": "C:\\Learn\\AngularLearn\\SuperHeroAPI\\SuperHeroAPI.csproj",
+        "projectPath": "C:\\Learn\\AngularLearn\\AngularCrud\\SuperHeroAPI\\SuperHeroAPI.csproj",
         "packagesPath": "C:\\Users\\Mifla\\.nuget\\packages\\",
-        "outputPath": "C:\\Learn\\AngularLearn\\SuperHeroAPI\\obj\\",
+        "outputPath": "C:\\Learn\\AngularLearn\\AngularCrud\\SuperHeroAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -46,6 +46,20 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.9, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.2.3, )"
